@@ -20,7 +20,7 @@ $(document).ready(function() {
     counter = 0;
     gameState = state;
     if (gameState != 'endState') {
-      p = new Player(canvas.width / 2, canvas.height / 2, 8);  
+      p = new Player(canvas.width / 2, canvas.height / 2, 50);  
     } else if (gameState == 'endState') {
       p = new Player(null, null, p.r);
     }
