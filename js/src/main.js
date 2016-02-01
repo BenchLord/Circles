@@ -57,6 +57,7 @@ $(document).ready(function() {
       enemies[i].update(enemies, canvas);
 
       if (gameState == 'playState') {
+                
         var dist = Math.sqrt(Math.pow(enemies[i].x - p.x, 2) + Math.pow(enemies[i].y - p.y, 2));
         if (dist<(enemies[i].r + p.r)) {
           if (p.r >= enemies[i].r) {
