@@ -32,7 +32,6 @@ var Enemy = Class.extend({
         self.xVel = 2 - ((1/5) * Math.sqrt(self.r));
         var theta = (Math.random() * Math.PI);
         self.yVel = Math.cos(theta) * self.xVel;
-        console.log(self.yVel);
       break;
     }
   },
